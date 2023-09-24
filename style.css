@@ -1,0 +1,17 @@
+.done {
+    text-decoration: line-through;
+    color: #ff0000;
+}
+
+#todoInput,
+#addTask {
+    padding: 10px;
+}
+
+li {
+    margin: 5px;
+}
+
+button {
+    margin: 5px;
+}
