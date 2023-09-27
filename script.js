@@ -12,10 +12,10 @@ ADDTASK.addEventListener('click', function () {
         taskList.appendChild(new_List); //set input value to new list
 
         let new_Btn = document.createElement('button');  //create new button element
-        let remove_Btn = document.createTextNode('x');  //set variable with new value
+        let remove_Btn = document.createTextNode('❌');  //set variable with new value
         new_Btn.appendChild(remove_Btn); //ser mew value to new button element
+        new_Btn.classList.add('btn'); // add css class to button
         new_List.appendChild(new_Btn); //set button element to list also
-
 
         //events click task done
         new_List.addEventListener('click', function (currentTarget) {

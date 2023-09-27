@@ -9,9 +9,13 @@
 }
 
 li {
-    margin: 5px;
+    margin: 10px;
 }
 
 button {
     margin: 5px;
+}
+
+.bg {
+    background-color: #F7E594;
 }
